@@ -1,0 +1,18 @@
+{
+	"autoload": {
+		"psr-4": {
+			"Guyon\\": "src/"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Guyon\\Tests\\": "tests/"
+		}
+	},
+	"require": {
+		"psr/http-message": "^1.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.3"
+	}
+}
